@@ -7,8 +7,6 @@
 
 .destinations-search-container {
   display: flex;
-  text-align: center;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 80%;
