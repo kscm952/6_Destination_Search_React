@@ -1,7 +1,7 @@
+// Write your code here
+
 import {Component} from 'react'
-
 import DestinationItem from '../DestinationItem'
-
 import './index.css'
 
 class DestinationSearch extends Component {
@@ -27,14 +27,14 @@ class DestinationSearch extends Component {
           <div className="search-input-container">
             <input
               type="search"
-              className="search-input"
               placeholder="Search"
+              className="search-input"
               value={searchInput}
               onChange={this.onChangeSearchInput}
             />
             <img
               src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png"
-              alt="search icon"
+              alt="search-icon"
               className="search-icon"
             />
           </div>
